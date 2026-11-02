@@ -27,15 +27,7 @@ tabs:
             field:
               type: slug
               localizable: true
-          -
-            handle: parent
-            field:
-              type: entries
-              collections:
-                - pages
-              max_items: 1
-              listable: false
-              localizable: true
+              validate: 'max:200'
           -
             handle: show_title
             field:
