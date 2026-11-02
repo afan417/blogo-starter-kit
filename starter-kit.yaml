@@ -17,4 +17,3 @@ export_paths:
   - routes/web.php
   - users
   - .env.example
-  - README.md
